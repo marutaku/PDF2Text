@@ -27,7 +27,7 @@ with open(pdf_path, 'rb') as fp:
 
     device.close()
     rettxt.close()
-# 彼女氏のいたずらコード
+
 new_file_name = pdf_path + '.txt'
 with  open(new_file_name, 'w') as f:
     f.write(text)
